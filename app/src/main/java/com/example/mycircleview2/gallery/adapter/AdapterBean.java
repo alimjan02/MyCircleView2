@@ -18,6 +18,7 @@ public class AdapterBean {
         if (viewTypeCount < 1) {
             return;
         }
+
         //noinspection unchecked
         SparseArray<View>[] scrapViews = new SparseArray[viewTypeCount];
         for (int i = 0; i < viewTypeCount; i++) {
